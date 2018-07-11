@@ -2,6 +2,15 @@
 
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
+## Dependencies
+
+`Python 3.5.4` is used for development and following packages are required to run the code:
+`pip install googledrivedownloader`<br>
+`pip install matplotlib`<br>
+`pip install tensorflow-gpu`<br>
+`pip install keras`<br>
+`pip install numpy`
+
 ## Video Classification
 
 - [Training](VideoNetworkTraining.ipynb)
