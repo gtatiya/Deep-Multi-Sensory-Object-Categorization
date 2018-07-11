@@ -8,8 +8,8 @@
 `pip install tensorflow-gpu==1.8.0)`<br>
 `pip install keras==2.2.0`<br>
 `pip install matplotlib==2.2.2`<br>
-`pip install numpy==1.14.5`
-`pip install googledrivedownloader`<br>
+`pip install numpy==1.14.5`<br>
+`pip install googledrivedownloader`
 
 ## Video Classification
 
