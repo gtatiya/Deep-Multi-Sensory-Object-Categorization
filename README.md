@@ -1,6 +1,6 @@
 # Deep Multi-Sensory Object Categorization System Using Interactive Exploration For Humanoid Robot
 
-<img src="pics/System.jpg" alt="drawing" width="500px" align="middle"/>
+<center><img src="pics/System.jpg" alt="drawing" width="500px" align="middle"/></center>
 
 ## Video Classification
 
