@@ -4,7 +4,7 @@
 
 ## Dependencies
 
-`Python 3.5.4` is used for development and following packages are required to run the code:<br>
+`Python 3.5.4` is used for development and following packages are required to run the code:<br><br>
 `pip install googledrivedownloader`<br>
 `pip install matplotlib`<br>
 `pip install tensorflow-gpu`<br>
