@@ -1,8 +1,23 @@
 # Deep Multi-Sensory Object Categorization System Using Interactive Exploration For Humanoid Robot
 
+<img src="pics/System.jpg" alt="drawing"/>
 
 ## Video Classification
 
-- [Training](VideoNetworkTesting.ipynb)
-- [Testing](VideoNetworkTraining.ipynb)
+- [Training](VideoNetworkTraining.ipynb)
+- [Testing](VideoNetworkTesting.ipynb)
 
+## Sound Classification
+
+- [Training](SoundNetworkTraining.ipynb)
+- [Testing](SoundNetworkTesting.ipynb)
+
+## Haptic Classification
+
+- [Training](HapticNetworkTraining.ipynb)
+- [Testing](HapticNetworkTesting.ipynb)
+
+## Multimodal Classification
+
+- [Training](MultimodalNetworkTraining.ipynb)
+- [Testing](MultimodalNetworkTesting.ipynb)
