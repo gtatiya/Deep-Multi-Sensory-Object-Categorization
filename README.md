@@ -2,8 +2,6 @@
 
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
-<img src="pics/System.jpg" align="middle" width="600px">
-
 ## Video Classification
 
 - [Training](VideoNetworkTraining.ipynb)
