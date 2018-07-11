@@ -2,6 +2,8 @@
 
 <center><img src="pics/System.jpg" alt="drawing" width="500px"/></center>
 
+![System](pics/System.jpg)
+
 ## Video Classification
 
 - [Training](VideoNetworkTraining.ipynb)
