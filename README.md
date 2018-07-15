@@ -11,6 +11,10 @@
 `pip install numpy==1.14.5`<br>
 `pip install googledrivedownloader`
 
+## Dataset
+
+- [Visualization of each modalities](DatasetVisualization.ipynb)
+
 ## Video Classification
 
 - [Training](VideoNetworkTraining.ipynb)
