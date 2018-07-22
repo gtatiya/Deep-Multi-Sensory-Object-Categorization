@@ -1,5 +1,16 @@
 # Deep Multi-Sensory Object Categorization System Using Interactive Exploration For Humanoid Robot
 
+**Abstract:**
+
+> Cognitive neuroscience shows in order to recognize object category humans learns the physical nature of the objects by exploring it.
+Therefore, it is very important for a robot to understand the objects around it, so that it can operate in a human-inhabited environment.
+When identifying objects, humans typically rely not only on visual perception, but also perform physical interactions with them that allow understanding of the objects' non-visual properties.
+Motivated by this cognitive process, we propose a method that enabled a robot to classify the category of 100 different household objects, each belonging to one of 20 categories by performing 9 exploratory interactions with the objects.
+In this paper, we present deep learning techniques that perform better than previous methods by training Tensor-Train Gated Recurrent Unit for video data and Convolutional Neural Networks for audio and haptic data produced during object manipulation by a robot.
+In most cases, purely video neural networks outperform audio and haptic neural networks suggesting that vision is the most important modality for category recognition.
+Furthermore, we also propose a novel strategy to train a single neural network that inputs video, audio and haptic data, and demonstrate that its performance is better than separate neural networks for video, audio and haptic data.
+Our approach enables the robot to recognize object category within only 0.1 second of interaction with high accuracy and outperforms the previous published baseline for the dataset used in our experiments.
+
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
 ## Dependencies
