@@ -2,8 +2,7 @@
 
 **Abstract:**
 
-> Cognitive neuroscience shows in order to recognize object category humans learns the physical nature of the objects by exploring it.
-Therefore, it is very important for a robot to understand the objects around it, so that it can operate in a human-inhabited environment.
+> For a robot to operate in a human-inhabited environment, it is very important for it to understand key features of the objects in interacts with.
 When identifying objects, humans typically rely not only on visual perception, but also perform physical interactions with them that allow understanding of the objects' non-visual properties.
 Motivated by this cognitive process, we propose a method that enabled a robot to classify the category of 100 different household objects, each belonging to one of 20 categories by performing 9 exploratory interactions with the objects.
 In this paper, we present deep learning techniques that perform better than previous methods by training Tensor-Train Gated Recurrent Unit for video data and Convolutional Neural Networks for audio and haptic data produced during object manipulation by a robot.
