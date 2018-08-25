@@ -31,6 +31,8 @@ Data pre-processing was performed using `Python 3.5.4` and neural networks were 
 
 ## Video Classification
 
+<img src="pics/Video_TT_GRU.png" alt="drawing" width="600px"/>
+
 ### Video Network Hyper-parameters
 
 The input dimension at each time step is 120 x 90 x 3 = 32,400 which is factorized as 2 x 90 x 90 x 2, the hidden layer is chosen to be 6 x 6 x 6 x 6 = 1,296 and the Tensor-Train ranks are [1, 4, 4, 4, 1].
@@ -38,36 +40,42 @@ A fully-connected layer for such a mapping would have required 41,990,400 (32,40
 
 We applied 0.25 Dropout for both input-to-hidden and hidden-to-hidden mappings in plain GRU as well as its TT modifications; and 0.01 ridge regularization for the single-layered classifier.
 The model was deployed in Keras and TensorFlow was used as backend.
-We trained for 150 epochs and used the Adam, an gradient-based stochastic optimization algorithm with a learning rate of 1 x $10^{-4}$.
+We trained for 150 epochs and used the Adam, an gradient-based stochastic optimization algorithm with a learning rate of 1 x 10^{-4}.
 
 - [Training](VideoNetworkTraining.ipynb)
 - [Testing](VideoNetworkTesting.ipynb)
 
 ## Sound Classification
 
+![Sound Network Architecture](pics/Sound_CNN.png)
+
 ### Sound Network Hyper-parameters
 
 We applied dropout with 0.5 probability for fully connected layers and the first convolutional layer.
-We trained our network using Adam optimization, with a learning rate 1 x $10^{-4}$ and stopped training after 300 iterations.
+We trained our network using Adam optimization, with a learning rate 1 x 10^{-4} and stopped training after 300 iterations.
 
 - [Training](SoundNetworkTraining.ipynb)
 - [Testing](SoundNetworkTesting.ipynb)
 
 ## Haptic Classification
 
+![Haptic Network Architecture](pics/Haptic_CNN.png)
+
 ### Haptic Network Hyper-parameters
 
 To reduce over-fitting during training, we used dropout after the fully connected layer with 0.5 probability.
-Training was performed with 400 training epochs using Adam optimization with a learning rate of 1 x $10^{-4}$.
+Training was performed with 400 training epochs using Adam optimization with a learning rate of 1 x 10^{-4}.
 
 - [Training](HapticNetworkTraining.ipynb)
 - [Testing](HapticNetworkTesting.ipynb)
 
 ## Multimodal Classification
 
+<img src="pics/Multimodal.png" alt="drawing" width="400px"/>
+
 ### Multimodal Network Hyper-parameters
 
-This network was trained for 300 epochs using Adam optimization with learning rate 1 x $10^{-4}$.
+This network was trained for 300 epochs using Adam optimization with learning rate 1 x 10^{-4}.
 
 - [Training](MultimodalNetworkTraining.ipynb)
 - [Testing](MultimodalNetworkTesting.ipynb)
