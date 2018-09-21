@@ -81,7 +81,7 @@ This network was trained for 300 epochs using Adam optimization with learning ra
 - [Training](MultimodalNetworkTraining.ipynb)
 - [Testing](MultimodalNetworkTesting.ipynb)
 
-## Dataset
+## Results
 
 ### Accuracy curve for all the interactions and sensory modalities
 
