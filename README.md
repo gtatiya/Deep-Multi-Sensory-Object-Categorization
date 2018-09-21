@@ -2,13 +2,14 @@
 
 **Abstract:**
 
-> For a robot to operate in a human-inhabited environment, it is very important for it to understand key features of the objects in interacts with.
-When identifying objects, humans typically rely not only on visual perception, but also perform physical interactions with them that allow understanding of the objects' non-visual properties.
-Motivated by this cognitive process, we propose a method that enabled a robot to classify the category of 100 different household objects, each belonging to one of 20 categories by performing 9 exploratory interactions with the objects.
-In this paper, we present deep learning techniques that perform better than previous methods by training Tensor-Train Gated Recurrent Unit for video data and Convolutional Neural Networks for audio and haptic data produced during object manipulation by a robot.
-In most cases, purely video neural networks outperform audio and haptic neural networks suggesting that vision is the most important modality for category recognition.
-Furthermore, we also propose a novel strategy to train a single neural network that inputs video, audio and haptic data, and demonstrate that its performance is better than separate neural networks for video, audio and haptic data.
-Our approach enables the robot to recognize object category within only 0.1 second of interaction with high accuracy and outperforms the previous published baseline for the dataset used in our experiments.
+> When identifying an object and its properties, humans use features from multiple sensory modalities produced when manipulating the object.
+Motivated by this cognitive process, we propose a deep learning methodology for object category recognition which uses visual, auditory, and haptic sensory data coupled with exploratory behaviors (e.g., grasping, lifting, pushing, etc.).
+In our method, as the robot performs an action on an object, it uses Tensor-Train Gated Recurrent Unit network to process its visual data, and Convolutional Neural Networks to process haptic and auditory data.
+We propose a novel strategy to train a single neural network that inputs video, audio and haptic data, and demonstrate that its performance is better than separate neural networks for each sensory modality.
+The proposed method was evaluated on a dataset in which the robot explored 100 different objects, each belonging to one of 20 categories.
+While the visual information was the dominant modality for most categories, adding the additional haptic and auditory networks further improves the robot's category recognition accuracy.
+Our approach outperforms the previous published baseline for the dataset which used hand-crafted features for each modality.
+We also show that a robot does not need the sensory data from the entire interaction, but instead can make a good prediction early on during behavior execution.
 
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
@@ -79,3 +80,13 @@ This network was trained for 300 epochs using Adam optimization with learning ra
 
 - [Training](MultimodalNetworkTraining.ipynb)
 - [Testing](MultimodalNetworkTesting.ipynb)
+
+## Dataset
+
+### Accuracy curve for all the interactions and sensory modalities
+
+<img src="pics/Accuracy_Curve.png" alt="drawing" width="400px"/>
+
+### Recognition F-score for each category behavior, and sensory modality: (v)isual, (a)uditory, (h)aptic and (m)ultimodal
+
+<img src="pics/F_Score.png" alt="drawing" width="400px"/>
