@@ -85,8 +85,8 @@ This network was trained for 300 epochs using Adam optimization with learning ra
 
 ### Accuracy curve for all the interactions and sensory modalities
 
-<img src="pics/Accuracy_Curve.png" alt="drawing" width="400px"/>
+<img src="pics/Accuracy_Curve.png" alt="drawing"/>
 
 ### Recognition F-score for each category behavior, and sensory modality: (v)isual, (a)uditory, (h)aptic and (m)ultimodal
 
-<img src="pics/F_Score.png" alt="drawing" width="400px"/>
+<img src="pics/F_Score.png" alt="drawing"/>
