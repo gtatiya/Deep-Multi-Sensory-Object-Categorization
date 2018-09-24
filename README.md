@@ -1,4 +1,4 @@
-# Deep Multi-Sensory Object Categorization System Using Interactive Exploration For Humanoid Robot
+# Deep Multi-Sensory Object Category Recognition Using Interactive Behavioral Exploration
 
 **Abstract:**
 
