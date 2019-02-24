@@ -13,7 +13,7 @@ We also show that a robot does not need the sensory data from the entire interac
 
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
-## Developer Environment
+## Development Environment
 For our research, we used 64-bit Ubuntu 16.04 based computer with 16 GB RAM, Intel Core i7-7700 CPU (3.20 GHz x 8 cores) and NVIDIA GeForce GTX 1060 (3GB RAM, 1280 CUDA Cores).
 Data pre-processing was performed using `Python 3.5.4` and neural networks were implemented in widely used deep learning framework `TensorFlow 1.7` with GPU support (cuDNN 7, CUDA 9).
 
