@@ -90,3 +90,7 @@ This network was trained for 300 epochs using Adam optimization with learning ra
 ### Recognition F-score for each category behavior, and sensory modality: (v)isual, (a)uditory, (h)aptic and (m)ultimodal
 
 <img src="pics/F_Score.png" alt="drawing"/>
+
+# Alternate Configurations 
+
+Alternate Network Architecture for Video, Sound, Haptic, and Multimodal Networks are discussed here: [Alternate Configurations](AlternateConfigurations.ipynb)
