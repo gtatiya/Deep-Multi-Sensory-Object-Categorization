@@ -17,7 +17,18 @@ Gyan Tatiya and Jivko Sinapov, "<a href="https://www.eecs.tufts.edu/~gtatiya/fil
 
 **Poster:**
 
-<img src="pics/IEEE_ICRA_2019_Poster.jpg" alt="drawing" width="800px"/>
+<img src="pics/IEEE_ICRA_2019_Poster.jpg" alt="drawing" width="900px"/>
+
+**BibTeX:**
+```
+@inproceedings{tatiya2019deep,
+  title={Deep Multi-Sensory Object Category Recognition Using Interactive Behavioral Exploration},
+  author={Tatiya, Gyan and Sinapov, Jivko},
+  booktitle={2019 IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2019},
+  organization={IEEE}
+}
+```
 
 ## Development Environment
 For our research, we used 64-bit Ubuntu 16.04 based computer with 16 GB RAM, Intel Core i7-7700 CPU (3.20 GHz x 8 cores) and NVIDIA GeForce GTX 1060 (3GB RAM, 1280 CUDA Cores).
