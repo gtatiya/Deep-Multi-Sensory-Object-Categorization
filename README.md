@@ -13,6 +13,8 @@ We also show that a robot does not need the sensory data from the entire interac
 
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
+Gyan Tatiya and Jivko Sinapov, <a href="https://www.eecs.tufts.edu/~gtatiya/files/2019/IEEE_ICRA_2019_DeepMultiSensoryObjectCategorizationSystem.pdf"><b>"Deep Multi-Sensory Object Category Recognition Using Interactive Behavioral Exploration"</b></a>, IEEE International Conference on Robotics and Automation (ICRA), Montreal, Canada, May 20-24, 2019.
+
 ## Development Environment
 For our research, we used 64-bit Ubuntu 16.04 based computer with 16 GB RAM, Intel Core i7-7700 CPU (3.20 GHz x 8 cores) and NVIDIA GeForce GTX 1060 (3GB RAM, 1280 CUDA Cores).
 Data pre-processing was performed using `Python 3.5.4` and neural networks were implemented in widely used deep learning framework `TensorFlow 1.7` with GPU support (cuDNN 7, CUDA 9).
