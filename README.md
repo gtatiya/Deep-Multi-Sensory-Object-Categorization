@@ -17,7 +17,7 @@ Gyan Tatiya and Jivko Sinapov, "<a href="https://www.eecs.tufts.edu/~gtatiya/fil
 
 **Poster:**
 
-<img src="pics/IEEE_ICRA_2019_Poster.jpg" alt="drawing"/>
+<img src="pics/IEEE_ICRA_2019_Poster.jpg" alt="drawing" width="800px"/>
 
 ## Development Environment
 For our research, we used 64-bit Ubuntu 16.04 based computer with 16 GB RAM, Intel Core i7-7700 CPU (3.20 GHz x 8 cores) and NVIDIA GeForce GTX 1060 (3GB RAM, 1280 CUDA Cores).
