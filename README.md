@@ -45,6 +45,7 @@ Data pre-processing was performed using `Python 3.5.4` and neural networks were 
 
 ## Dataset
 
+- Download Dataset: https://tufts.box.com/v/DeepMultiSensoryDataset
 - [Visualization of each modalities](DatasetVisualization.ipynb)
 
 ## Video Classification
