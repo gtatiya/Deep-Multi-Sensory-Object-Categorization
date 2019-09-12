@@ -13,7 +13,7 @@ We also show that a robot does not need the sensory data from the entire interac
 
 <img src="pics/System.jpg" alt="drawing" width="600px"/>
 
-Gyan Tatiya and Jivko Sinapov, "<a href="https://www.eecs.tufts.edu/~gtatiya/files/2019/IEEE_ICRA_2019_DeepMultiSensoryObjectCategorizationSystem.pdf"><b>Deep Multi-Sensory Object Category Recognition Using Interactive Behavioral Exploration</b></a>", IEEE International Conference on Robotics and Automation (ICRA), Montreal, Canada, May 20-24, 2019.
+Gyan Tatiya and Jivko Sinapov, "<a href="https://www.eecs.tufts.edu/~gtatiya/files/2019/IEEE_ICRA_2019_gtatiya.pdf"><b>Deep Multi-Sensory Object Category Recognition Using Interactive Behavioral Exploration</b></a>", IEEE International Conference on Robotics and Automation (ICRA), Montreal, Canada, May 20-24, 2019.
 
 **Poster:**
 
@@ -24,7 +24,8 @@ Gyan Tatiya and Jivko Sinapov, "<a href="https://www.eecs.tufts.edu/~gtatiya/fil
 @inproceedings{tatiya2019deep,
   title={Deep Multi-Sensory Object Category Recognition Using Interactive Behavioral Exploration},
   author={Tatiya, Gyan and Sinapov, Jivko},
-  booktitle={2019 IEEE International Conference on Robotics and Automation (ICRA)},
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={7872--7878},
   year={2019},
   organization={IEEE}
 }
